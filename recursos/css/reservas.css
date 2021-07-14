@@ -1,0 +1,25 @@
+.texto[type="text"]{
+    padding: 9px 10px 9px 50px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    background: url("../img/search.svg") no-repeat 17px center;
+}.card{
+    width: auto;
+    margin-bottom: 10px;
+}.card-text{
+    text-align: justify;
+    font-weight: 300;
+    font-size: 16px;
+}
+@media only screen and (max-width: 768px){
+    .texto[type="text"]{
+        padding: 9px 10px 9px 50px;
+        outline: none;
+        font-size: 14px;
+        font-weight: 300;
+        background: url("../img/search.svg") no-repeat 17px center;
+    }.card-text{
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,93 @@
+.card{
+    width: auto;
+    margin-bottom: 10px;
+    border: none;
+}.t-img{
+    margin: 0px auto 0px auto;
+    border-radius: 100%;
+    width: 200px;
+}.card-text{
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 300;
+    font-size: 16px;
+}.btn-contra{
+    margin: 0px auto 0px auto;
+    border: none;
+    background: none;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 14px;
+    color: #00B0FF;
+    padding: 0px 0px 0px 0px;
+}.btn-contra:hover{
+    text-decoration: underline;
+    color: #00B0FF;
+}.div-general{
+    border: 1px solid #909090;
+    border-radius: 5px;
+    padding: 2px;
+    margin-bottom: 30px;
+    height: auto;
+}.personal{
+    margin-top: 20px;
+    margin-left: 15px;
+}label{
+    font-weight: 400;
+    font-size: 16px;
+    color: #00B0FF;
+}.texto{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: -10px;
+    padding-left: 1px;
+}.grupo{
+    margin-top: -10px;
+}.btn-per{
+    padding: 0px;
+    margin-bottom: 10px;
+    border: none;
+    background: none;
+    font-size: 16px;
+    font-weight: 300;
+    color: #00B0FF;
+}.btn-per:hover{
+    color: #0074aa;
+}.r-titulo{
+    font-weight: 500;
+    font-size: 18px;
+    color: #00B0FF;
+    text-align: center;
+    margin: 10px auto 10px auto;
+}.activa{
+    font-weight: 400;
+    color: #00B0FF;
+}.activa:hover{
+    color: #0074aa;
+    cursor: default;
+}.vencida{
+    font-weight: 400;
+    color: #303030
+}.vencida:hover{
+    color: #000000;
+    cursor: default;
+}.indicacion{
+    text-align: right;
+}.indi{
+    display: inline;
+    font-weight: 300;
+    font-size: 14px;
+    margin-left: 15px;
+    margin-right: 10px;
+}.reservas{
+    min-height: 100px;
+}
+
+@media only screen and (max-width: 576px){
+    .card{
+        width: 200px;
+        margin-bottom: 10px;
+        border: none;
+        margin: 0px auto 0px auto;
+    }
+}

@@ -1,0 +1,43 @@
+/* inicio bienvenida */
+.Bemvida{
+    margin: auto 0px auto 0px;
+}.Bda-T{
+    font-size: 40px;
+    font-weight: 500;
+    color: #00B0FF;
+}.Bda-D{
+    font-size: 20px;
+    font-weight: 300;
+}
+/* fin bienvenida */
+
+/* inicio preguntas */
+.faqs{
+    list-style: none;
+}.btn-faq{
+    position: relative;
+    border: none;
+    background-color: #ffffff00;
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+}.btn-faq:hover{
+    color: #00B0FF;
+}
+/* fin preguntas */
+
+/* inicio contacto */
+.sub{
+    font-weight: 500;
+    font-size: 38px;
+    color: #00B0FF;
+    text-align: center;
+}.info{
+    margin-top: 10px;
+    text-align: center;
+}.form-info{
+    font-weight: 300;
+    font-size: 15px;
+}
+/* fin contacto */

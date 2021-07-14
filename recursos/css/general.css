@@ -1,0 +1,136 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.soy{
+    background: #00B0FF;
+}
+.antehead{
+    margin-top: 2px;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    font-weight: 300;
+    font-size: 14px;
+    color: #ffffff;
+}.antehead:hover{
+    color: #0074aa;
+}
+a:hover{
+    text-decoration: none;
+}
+header{
+    position: relative;
+    margin: 35px 0px 35px 0px;
+}
+.logito{
+    margin: auto 0px auto 0px;
+}
+.logo{
+    position: relative;
+    font-weight: 900;
+    font-size: 20px;
+    color: #00B0FF;
+}.logo:hover{
+    color: #0074aa;;
+}
+.menuInicio{
+    margin: auto 0px auto 0px;
+}
+.btn-menu{
+    position: relative;
+    text-align: center;
+    margin-right: 34px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #00B0FF;
+}.btn-menu:hover{
+    color: #0074aa;
+}
+.btn-cuenta{
+    position: relative;
+    text-align: center;
+    padding: 6px 9px 6px 9px;
+    background-color: #00B0FF;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+}.btn-cuenta:hover{
+    color: white;
+    background-color: #0074aa;
+}
+.btn-general{
+    position: relative;
+    padding: 5px 12px 5px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00B0FF;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+}.btn-general:hover{
+    color: white;
+    background-color: #0074aa;
+}.btn-cerrar{
+    width: 16px;
+    margin-left: 5px;
+}.ln-cuenta{
+    position: relative;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: italic;
+    color: #00B0FF;
+}.ln-cuenta:hover{
+    color: #0074aa;
+}.texto{
+    font-weight: 300;
+}
+
+footer{
+    position: relative;
+    margin: 20px 0px 0px 0px;
+}
+.copy{
+    position: relative;
+    font-weight: 400;
+    font-size: 18px;
+    color: #00B0FF;
+    margin-top: 17px;
+}
+@font-face{
+    font-family: 'socialtype';
+    src: url('../fonts/SocialType.ttf') format('truetype');
+}.op-ft{
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.info-ft{
+    font-family: 'socialtype';
+    font-size: 30px;
+    color: #00B0FF;
+}
+
+.contenido{
+    min-height: 610px;
+}
+
+@media only screen and (max-width: 767px){
+    .menuInicio{
+        margin: 5px auto 0px auto;
+    }
+    .logito{
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .copy{
+        text-align: center;
+    }
+    .op-ft{
+        margin: -20px auto 0px auto;
+    }
+    .contenido{
+        min-height: 100px;
+    }
+}

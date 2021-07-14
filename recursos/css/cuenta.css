@@ -1,0 +1,79 @@
+.informacion{
+    position: relative;
+    margin: 0 auto 0 auto;
+    width: 500px;
+    height: 600px;
+}.informacion:before {
+    content: "";
+    display: inline-block;
+    height: 30%;
+    vertical-align: middle;
+}.informacionR{
+    position: relative;
+    margin: 0 auto 0 auto;
+    width: 500px;
+    height: 600px;
+}.titulo{
+    text-align: center;
+}.mensaje{
+    font-weight: 300;
+    font-size: 20px;
+    text-align: justify;
+}.gr{
+    position: relative;
+    margin-bottom: 5px;
+}.info{
+    font-weight: 300;
+    font-size: 17px;
+}.mns{
+    font-weight: 300;
+    font-size: 16px;
+    color: #b91313;
+}.btn-olvide{
+    border: none;
+    background: none;
+    padding: 5px 0px 5px 0px;
+    font-weight: 300;
+    font-size: 16px;
+    color: #00B0FF;
+}.btn-olvide:hover{
+    color: #0074aa;
+}.btn-reg{
+    position: absolute;
+    border: none;
+    background: none;
+    color: #00B0FF;
+    padding: 5px 0px 10px 0px;
+    font-weight: 300;
+    font-size: 16px;
+}.btn-reg:hover{
+    color: #0074aa;
+}.log{
+    position: relative;
+    text-align: right;
+}.ini{
+    margin-top: 8px;
+}.adicional{
+    position: absolute;
+    padding: 5px 5px 5px 10px;
+    font-style: italic;
+    text-align: justify;
+}.titulito{
+    font-weight: 300;
+    color: #00B0FF;
+}
+
+
+@media only screen and (max-width: 767px){
+    .informacion{
+        position: relative;
+        margin: 0 auto 0 auto;
+        width: 300px;
+        height: 400px;
+    }.informacionR{
+        position: relative;
+        margin: 0 auto 0 auto;
+        width: 300px;
+        height: 400px;
+    }
+}

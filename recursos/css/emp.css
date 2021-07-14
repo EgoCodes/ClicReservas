@@ -1,0 +1,60 @@
+.titulo-emp{
+    font-weight: 500;
+    color: #00B0FF;
+}.descrip-emp{
+    font-weight: 300;
+}.btn-hora{
+    position: relative;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0px 0px 0px;
+    border-radius: 5px;
+    border: 1px solid;
+    font-size: 18px;
+    font-weight: 300;
+    background-color: #00000000;
+    color: #00B0FF;
+}.usada{
+    color: #505050;
+}.txts{
+    font-weight: 300;
+    color: #00B0FF;
+}.txts:hover{
+    color: #0074aa;
+}
+.opciones{
+    margin-top: 15px;
+}.adicional-info{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.btn-atras{
+    position: relative;
+    padding: 6px 10px 10px 0px;
+    text-align: center;
+    background-color: #00000000;
+}.rs{
+    display: block;
+    text-align: center;
+}.titulito{
+    font-weight: 500;
+    color: #00B0FF;
+}.cositas{
+    font-weight: 300;
+}.centrado{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 767px){
+    .adicional-info{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }.descrip-emp{
+        font-weight: 300;
+        font-size: 15px;
+    }
+}

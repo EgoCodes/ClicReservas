@@ -1,0 +1,7 @@
+
+ErrorDocument 404 http://localhost/clicreservas
+
+RewriteEngine on
+RewriteRule ^turnos gestion.php
+RewriteRule ^perfil perfil-empresa.php
+RewriteRule ^registro register.php

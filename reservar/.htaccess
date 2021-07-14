@@ -1,0 +1,5 @@
+
+ErrorDocument 404 http://localhost/clicreservas
+
+RewriteEngine on
+RewriteRule ^([0-9]+)$ ../empresa/index.php?element=$1

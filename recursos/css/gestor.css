@@ -1,0 +1,32 @@
+.btn-tablas{
+    border-radius: 5px;
+    border: none;
+    padding: 2px 5px, 2px, 5px;
+    color: #ffffff;
+    background-color: #454545;
+    text-align: center;
+}.btn-tablas:hover{
+    color: #454545;
+    background-color: #ffffff;
+}.cofirmT{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin: 20px 0 20px 0;
+}.btnConfirm{
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 15px 35px 15px 35px;
+    margin: 20px 40px 20px 40px;
+}.botonera{
+    text-align: center;
+}.botones{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-flow: row;
+    width: 100px
+}.flex-order{
+    text-align: center;
+}
